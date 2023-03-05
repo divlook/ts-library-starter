@@ -76,7 +76,7 @@ pnpm i
 
 scope 관련 설명은 [여기](https://docs.npmjs.com/cli/v9/using-npm/scope)를 참고해주세요.
 
-```json
+```jsonc
 // package.json
 {
     "name": "@divlook/library-starter-example", // 패키지명을 설정합니다. script tag로 로드하는 경우 window.LibraryStarterExample으로 선언됩니다.
