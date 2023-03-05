@@ -23,6 +23,7 @@ jobs:
           path: dist
           key: ${{ github.run_number }}
       - run: pnpm install --frozen-lockfile
+      - run: pnpm test
       - run: pnpm build
       - run: npm pkg delete devDependencies
 
