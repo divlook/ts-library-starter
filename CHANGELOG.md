@@ -1,9 +1,28 @@
+## [0.1.2](https://github.com/divlook/ts-library-starter/compare/v0.1.1...v0.1.2) (2023-03-05)
+
+
+### Continuous Integration
+
+* 릴리즈노트 생성할 때 draft 옵션 삭제 ([ac7c53b](https://github.com/divlook/ts-library-starter/commit/ac7c53b365e6c1b0c52de0f302d8591eac4017a8))
+* 빌드 폴더가 workflow 내에서 공유되게 수정 ([35bd387](https://github.com/divlook/ts-library-starter/commit/35bd38719d64d836670c4946eac199765d4ad966))
+* 수동 실행 옵션 삭제 ([cadf0ac](https://github.com/divlook/ts-library-starter/commit/cadf0ac9c553b0d116adef0c3b27732c97f518b6))
+
+
+### Documentation
+
+* README 수정 ([dbdbfc7](https://github.com/divlook/ts-library-starter/commit/dbdbfc735c77b62d8277d7d4490744a181dfe254))
+
 ## [0.1.1](https://github.com/divlook/ts-library-starter/compare/v0.1.0...v0.1.1) (2023-03-05)
 
 
 ### Continuous Integration
 
 * package 배포 workflow 수정 ([a5a4d97](https://github.com/divlook/ts-library-starter/commit/a5a4d978f0c78c7b6c71bc0c1f440c113224eb6f))
+
+
+### Miscellaneous Chores
+
+* **release:** v0.1.1 [skip ci] ([185a032](https://github.com/divlook/ts-library-starter/commit/185a03271549662feab34c7d9457919f6a6a4d89))
 
 ## [0.1.0](https://github.com/divlook/ts-library-starter/compare/f840c784708f82c5f26277c18f9b3945a26dc269...v0.1.0) (2023-03-05)
 
