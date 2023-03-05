@@ -1,4 +1,11 @@
-## 0.1.0 (2023-03-05)
+## [0.1.1](https://github.com/divlook/ts-library-starter/compare/v0.1.0...v0.1.1) (2023-03-05)
+
+
+### Continuous Integration
+
+* package 배포 workflow 수정 ([a5a4d97](https://github.com/divlook/ts-library-starter/commit/a5a4d978f0c78c7b6c71bc0c1f440c113224eb6f))
+
+## [0.1.0](https://github.com/divlook/ts-library-starter/compare/f840c784708f82c5f26277c18f9b3945a26dc269...v0.1.0) (2023-03-05)
 
 
 ### Features
@@ -15,4 +22,9 @@
 ### Continuous Integration
 
 * Auto Release workflow에 pnpm install 추가 ([d04bdcf](https://github.com/divlook/ts-library-starter/commit/d04bdcf0e064d93f9923fe4c3e29ffd7fe99ee57))
+
+
+### Miscellaneous Chores
+
+* **release:** v0.1.0 [skip ci] ([b65655a](https://github.com/divlook/ts-library-starter/commit/b65655af29005adfa245b81519a225022df26dc7))
 
