@@ -1,3 +1,15 @@
+## [0.1.5](https://github.com/divlook/ts-library-starter/compare/v0.1.4...v0.1.5) (2023-03-05)
+
+
+### Continuous Integration
+
+* Testing workflow 추가 ([3a047e6](https://github.com/divlook/ts-library-starter/commit/3a047e6199770c8c9060815db6a7eb6c95c7480c))
+
+
+### Miscellaneous Chores
+
+* workflow 이름 변경 ([67ebef8](https://github.com/divlook/ts-library-starter/commit/67ebef86bd68349d388962d32afb2148c601789f))
+
 ## [0.1.4](https://github.com/divlook/ts-library-starter/compare/v0.1.3...v0.1.4) (2023-03-05)
 
 
@@ -9,6 +21,11 @@
 ### Documentation
 
 * pkg 링크 추가 ([de7d9cd](https://github.com/divlook/ts-library-starter/commit/de7d9cd6efd650fc00956c1ecc829863bfa89966))
+
+
+### Miscellaneous Chores
+
+* **release:** v0.1.4 [skip ci] ([b4f26d7](https://github.com/divlook/ts-library-starter/commit/b4f26d785b71aefaec8835ab88187902f8e62fe1))
 
 ## [0.1.3](https://github.com/divlook/ts-library-starter/compare/v0.1.2...v0.1.3) (2023-03-05)
 
@@ -52,27 +69,4 @@
 ### Miscellaneous Chores
 
 * **release:** v0.1.1 [skip ci] ([185a032](https://github.com/divlook/ts-library-starter/commit/185a03271549662feab34c7d9457919f6a6a4d89))
-
-## [0.1.0](https://github.com/divlook/ts-library-starter/compare/f840c784708f82c5f26277c18f9b3945a26dc269...v0.1.0) (2023-03-05)
-
-
-### Features
-
-* :tada: 초안 작성 ([f840c78](https://github.com/divlook/ts-library-starter/commit/f840c784708f82c5f26277c18f9b3945a26dc269))
-
-
-### Bug Fixes
-
-* :bug: 버전 업데이트로 인한 커밋은 트리거되지 않게 수정 ([5347c41](https://github.com/divlook/ts-library-starter/commit/5347c41c5426d540b7766a7b24b0b6cbc0c5b507))
-* git pull 방법 수정 ([584e736](https://github.com/divlook/ts-library-starter/commit/584e73679c9763f3a05213e8dd6ea37d87510875))
-
-
-### Continuous Integration
-
-* Auto Release workflow에 pnpm install 추가 ([d04bdcf](https://github.com/divlook/ts-library-starter/commit/d04bdcf0e064d93f9923fe4c3e29ffd7fe99ee57))
-
-
-### Miscellaneous Chores
-
-* **release:** v0.1.0 [skip ci] ([b65655a](https://github.com/divlook/ts-library-starter/commit/b65655af29005adfa245b81519a225022df26dc7))
 
