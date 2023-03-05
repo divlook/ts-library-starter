@@ -25,7 +25,6 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
       - run: pnpm build
-      - run: npm pkg delete devDependencies
 
   publish-gpr:
     needs: build
@@ -45,6 +44,7 @@ jobs:
         with:
           path: dist
           key: ${{ github.run_number }}
+      - run: npm pkg delete devDependencies
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -64,6 +64,7 @@ jobs:
         with:
           path: dist
           key: ${{ github.run_number }}
+      - run: npm pkg delete devDependencies
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
