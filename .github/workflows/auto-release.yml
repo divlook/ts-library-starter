@@ -45,6 +45,6 @@ jobs:
         with:
           body: ${{ steps.changelog.outputs.clean_changelog }}
           draft: false
-          prerelease: true
+          prerelease: false
           name: ${{ steps.changelog.outputs.tag }}
           tag_name: ${{ steps.changelog.outputs.tag }}
