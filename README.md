@@ -15,6 +15,9 @@
 
 공개된 패키지인 경우 일반적인 방법으로 다운로드 받을 수 있습니다.
 
+- [npm:@divlook/library-starter-example](https://www.npmjs.com/package/@divlook/library-starter-example)
+- [github:@divlook/library-starter-example](https://github.com/divlook/ts-library-starter/pkgs/npm/library-starter-example)
+
 ```bash
 # 설명을 위한 예제 패키지입니다.
 npm i @divlook/library-starter-example
