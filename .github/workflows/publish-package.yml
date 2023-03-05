@@ -1,14 +1,17 @@
-name: 패키지 배포
+name: Publish package
 
 on:
   release:
-    types: [created]
+    types: [published]
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: pnpm/action-setup@v2
         with:
           version: 7
@@ -28,6 +31,8 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
           node-version: 18
@@ -41,6 +46,8 @@ jobs:
   #   runs-on: ubuntu-latest
   #   steps:
   #     - uses: actions/checkout@v3
+  #       with:
+  #         fetch-depth: 0
   #     - uses: actions/setup-node@v3
   #       with:
   #         node-version: 18
