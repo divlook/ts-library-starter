@@ -12,12 +12,17 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
       - name: Conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           config-file-path: 'conventionalcommits.config.js'
+          skip-git-pull: true
 
       - name: Create Release
         uses: actions/create-release@v1
