@@ -15,6 +15,14 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
 
       - name: Conventional Changelog Action
         id: changelog
@@ -23,6 +31,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           config-file-path: 'conventionalcommits.config.js'
           skip-git-pull: true
+          preset: 'conventionalcommits'
 
       - name: Create Release
         uses: actions/create-release@v1
