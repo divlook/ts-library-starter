@@ -18,6 +18,10 @@ jobs:
         with:
           node-version: 18
           cache: 'pnpm'
+      - uses: actions/cache@v3
+        with:
+          path: dist
+          key: ${{ github.run_number }}
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
       - run: npm pkg delete devDependencies
@@ -36,6 +40,10 @@ jobs:
         with:
           node-version: 18
           registry-url: https://npm.pkg.github.com/
+      - uses: actions/cache@v3
+        with:
+          path: dist
+          key: ${{ github.run_number }}
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -51,6 +59,10 @@ jobs:
   #       with:
   #         node-version: 18
   #         registry-url: https://registry.npmjs.org/
+  #     - uses: actions/cache@v3
+  #       with:
+  #         path: dist
+  #         key: ${{ github.run_number }}
   #     - run: npm publish --access public
   #       env:
   #         NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
