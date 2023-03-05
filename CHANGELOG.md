@@ -1,3 +1,10 @@
+## [0.1.6](https://github.com/divlook/ts-library-starter/compare/v0.1.5...v0.1.6) (2023-03-05)
+
+
+### Build System
+
+* devDependencies 삭제 ([37d4f92](https://github.com/divlook/ts-library-starter/commit/37d4f9285cf873d5b82c8c3b0953798ce7a51286))
+
 ## [0.1.5](https://github.com/divlook/ts-library-starter/compare/v0.1.4...v0.1.5) (2023-03-05)
 
 
@@ -8,6 +15,7 @@
 
 ### Miscellaneous Chores
 
+* **release:** v0.1.5 [skip ci] ([cd2d2fb](https://github.com/divlook/ts-library-starter/commit/cd2d2fba9093719a553e79b835419d6a543352ff))
 * workflow 이름 변경 ([67ebef8](https://github.com/divlook/ts-library-starter/commit/67ebef86bd68349d388962d32afb2148c601789f))
 
 ## [0.1.4](https://github.com/divlook/ts-library-starter/compare/v0.1.3...v0.1.4) (2023-03-05)
@@ -57,16 +65,4 @@
 ### Miscellaneous Chores
 
 * **release:** v0.1.2 [skip ci] ([4a283f4](https://github.com/divlook/ts-library-starter/commit/4a283f43ab81616f6f741b6385ce3a1aecc211b2))
-
-## [0.1.1](https://github.com/divlook/ts-library-starter/compare/v0.1.0...v0.1.1) (2023-03-05)
-
-
-### Continuous Integration
-
-* package 배포 workflow 수정 ([a5a4d97](https://github.com/divlook/ts-library-starter/commit/a5a4d978f0c78c7b6c71bc0c1f440c113224eb6f))
-
-
-### Miscellaneous Chores
-
-* **release:** v0.1.1 [skip ci] ([185a032](https://github.com/divlook/ts-library-starter/commit/185a03271549662feab34c7d9457919f6a6a4d89))
 
