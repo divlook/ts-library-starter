@@ -1,18 +1,24 @@
 name: Auto Release
 
 on:
-  push:
+  # push: # push를 사용하고 싶을 때
+  #   branches:
+  #     - develop
+  #   paths-ignore:
+  #     - 'package.json'
+  #     - 'CHANGELOG.md'
+  pull_request:
     branches:
       - develop
-    paths-ignore:
-      - 'package.json'
-      - 'CHANGELOG.md'
+    types:
+      - closed
 
 permissions:
   contents: write
 
 jobs:
   release:
+    if: ${{ github.event_name == 'push' || github.event.pull_request.merged == true }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
