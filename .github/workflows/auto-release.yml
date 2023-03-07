@@ -1,17 +1,17 @@
 name: Auto Release
 
 on:
+  pull_request:
+    branches:
+      - develop
+    types:
+      - closed
   # push: # push를 사용하고 싶을 때
   #   branches:
   #     - develop
   #   paths-ignore:
   #     - 'package.json'
   #     - 'CHANGELOG.md'
-  pull_request:
-    branches:
-      - develop
-    types:
-      - closed
 
 permissions:
   contents: write
