@@ -1,9 +1,26 @@
+## [0.1.9](https://github.com/divlook/ts-library-starter/compare/v0.1.8...v0.1.9) (2023-03-07)
+
+
+### Continuous Integration
+
+* 릴리즈 생성 조건 PR merged로 변경 ([36e8738](https://github.com/divlook/ts-library-starter/commit/36e8738e919078c8cf9647e462aca551d454463b))
+
+
+### Miscellaneous Chores
+
+* 트리거 코드 위치 변경 ([f3a543f](https://github.com/divlook/ts-library-starter/commit/f3a543fe333bde4bb5b6a223029b9b35c264c88f))
+
 ## [0.1.8](https://github.com/divlook/ts-library-starter/compare/v0.1.7...v0.1.8) (2023-03-05)
 
 
 ### Continuous Integration
 
 * workflow 트리거 수정 ([551ff69](https://github.com/divlook/ts-library-starter/commit/551ff69c4a07257b91eda96a16ae7a5ea758b6fd))
+
+
+### Miscellaneous Chores
+
+* **release:** v0.1.8 [skip ci] ([c1e1746](https://github.com/divlook/ts-library-starter/commit/c1e1746b268ccfcfbf6816b385fae0da3e5cdc87))
 
 ## [0.1.7](https://github.com/divlook/ts-library-starter/compare/v0.1.6...v0.1.7) (2023-03-05)
 
@@ -41,21 +58,4 @@
 
 * **release:** v0.1.5 [skip ci] ([cd2d2fb](https://github.com/divlook/ts-library-starter/commit/cd2d2fba9093719a553e79b835419d6a543352ff))
 * workflow 이름 변경 ([67ebef8](https://github.com/divlook/ts-library-starter/commit/67ebef86bd68349d388962d32afb2148c601789f))
-
-## [0.1.4](https://github.com/divlook/ts-library-starter/compare/v0.1.3...v0.1.4) (2023-03-05)
-
-
-### Continuous Integration
-
-* npm 배포코드 주석해제 ([b0e6b47](https://github.com/divlook/ts-library-starter/commit/b0e6b475c813f5e6d3846d69254c5a10b29a0053))
-
-
-### Documentation
-
-* pkg 링크 추가 ([de7d9cd](https://github.com/divlook/ts-library-starter/commit/de7d9cd6efd650fc00956c1ecc829863bfa89966))
-
-
-### Miscellaneous Chores
-
-* **release:** v0.1.4 [skip ci] ([b4f26d7](https://github.com/divlook/ts-library-starter/commit/b4f26d785b71aefaec8835ab88187902f8e62fe1))
 
