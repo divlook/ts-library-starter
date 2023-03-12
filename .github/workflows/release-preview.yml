@@ -1,18 +1,15 @@
-name: Auto Release
+name: Release Preview
 
 on:
   pull_request:
     branches:
-      - develop
-    types:
-      - closed
+      - release/*
 
 permissions:
   contents: write
 
 jobs:
-  release:
-    if: ${{ github.event.pull_request.merged == true && startsWith(github.head_ref, 'release/') }}
+  preview:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -26,7 +23,6 @@ jobs:
           node-version: 18
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
-      - run: pnpm test
 
       - name: Conventional Changelog Action
         id: changelog
@@ -36,15 +32,16 @@ jobs:
           config-file-path: 'conventionalcommits.config.js'
           skip-git-pull: true
           preset: 'conventionalcommits'
+          git-push: false
+          output-file: false
+          skip-version-file: true
 
-      - name: Create Release
-        uses: softprops/action-gh-release@v1
+      - name: Create Release Preview
+        uses: repo-sync/pull-request@v2
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          body: ${{ steps.changelog.outputs.clean_changelog }}
-          draft: false
-          prerelease: false
-          name: ${{ steps.changelog.outputs.tag }}
-          tag_name: ${{ steps.changelog.outputs.tag }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          pr_title: ${{ steps.changelog.outputs.tag }}
+          pr_body: ${{ steps.changelog.outputs.clean_changelog }}
