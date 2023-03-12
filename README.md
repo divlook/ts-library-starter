@@ -139,6 +139,29 @@ dist 디렉토리에 컴파일된 파일이 생성됩니다.
 pnpm build
 ```
 
+### 로컬 개발 모드
+
+로컬 개발 모드는 로컬에서 개발할 때 사용하는 방법입니다. 자세한 사용 방법은 [npm link](https://docs.npmjs.com/cli/v9/commands/npm-link)를 참고해주세요. 빌드할 때 소스맵이 생성되며, 파일을 수정할 때마다 빌드가 재실행됩니다.
+
+아래 예제에서 패키지명과 프로젝트명은 설명을 위한 예시입니다.
+
+```bash
+# 패키지 설정
+cd /workspace/ts-library-starter
+pnpm link --global
+pnpm local
+
+# 실제 프로젝트에 패키지 설치
+cd /workspace/another-project
+pnpm link --global @divlook/library-starter-example
+
+# 개발 완료 후 정리 방법
+cd /workspace/another-project
+pnpm rm @divlook/library-starter-example
+cd /workspace/ts-library-starter
+pnpm unlink
+```
+
 ### 테스트
 
 `**/*.test.ts` 패턴의 파일을 찾아 테스트를 실행합니다.
