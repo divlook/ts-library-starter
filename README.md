@@ -21,8 +21,8 @@
 ```bash
 # 설명을 위한 예제 패키지입니다.
 npm i @divlook/library-starter-example
-yarn @divlook/library-starter-example
-pnpm i @divlook/library-starter-example
+yarn add @divlook/library-starter-example
+pnpm add @divlook/library-starter-example
 ```
 
 비공개 패키지이거나 레지스트리가 다른 경우 레지스트리 설정과 레지스트리의 엑세스토큰이 필요합니다.
