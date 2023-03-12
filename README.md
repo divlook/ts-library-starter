@@ -176,7 +176,7 @@ pnpm test -- --watch
 develop branch에 커밋이 푸시되면 릴리즈, 체인지로그, 버전태그가 생성되고 package.json의 version이 업데이트됩니다.
 이 설정을 변경하고 싶은 경우 아래 파일을 수정해주세요.
 
-- .github/workflows/auto-release.yml
+- .github/workflows/release.yml
 - conventionalcommits.config.js
 
 ### 배포

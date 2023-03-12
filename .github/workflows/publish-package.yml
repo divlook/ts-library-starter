@@ -3,7 +3,7 @@ name: Publish Package
 on:
   workflow_run:
     workflows:
-      - 'Auto Release'
+      - 'Release'
     types:
       - completed
 
