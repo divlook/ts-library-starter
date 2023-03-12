@@ -173,7 +173,7 @@ pnpm test -- --watch
 
 ### 릴리즈 생성
 
-develop branch에 커밋이 푸시되면 릴리즈, 체인지로그, 버전태그가 생성되고 package.json의 version이 업데이트됩니다.
+develop branch에 Pull Request가 정상적으로 병합되면 [릴리즈](./releases), [체인지로그](./CHANGELOG.md), [버전태그](./tags)가 생성되고 [package.json](./package.json)의 version이 업데이트됩니다.
 이 설정을 변경하고 싶은 경우 아래 파일을 수정해주세요.
 
 - .github/workflows/release.yml
