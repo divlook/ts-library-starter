@@ -1,3 +1,11 @@
+## [0.1.10](https://github.com/divlook/ts-library-starter/compare/v0.1.9...v0.1.10) (2023-03-12)
+
+
+### Continuous Integration
+
+* husky 설정 및 git push hook 추가 ([6528019](https://github.com/divlook/ts-library-starter/commit/652801974dcc9b1487585ad5abd9c424c4db5236))
+* PR 생성시 eslint, prettier 체크 실행 ([e40fc73](https://github.com/divlook/ts-library-starter/commit/e40fc73779ec8096d21bb12025d68d8d7c8a9738))
+
 ## [0.1.9](https://github.com/divlook/ts-library-starter/compare/v0.1.8...v0.1.9) (2023-03-07)
 
 
@@ -8,6 +16,7 @@
 
 ### Miscellaneous Chores
 
+* **release:** v0.1.9 [skip ci] ([c7ffbff](https://github.com/divlook/ts-library-starter/commit/c7ffbffcc78017d6b7652875053755ffbf6c287d))
 * 트리거 코드 위치 변경 ([f3a543f](https://github.com/divlook/ts-library-starter/commit/f3a543fe333bde4bb5b6a223029b9b35c264c88f))
 
 ## [0.1.8](https://github.com/divlook/ts-library-starter/compare/v0.1.7...v0.1.8) (2023-03-05)
@@ -45,17 +54,4 @@
 ### Miscellaneous Chores
 
 * **release:** v0.1.6 [skip ci] ([b0cf885](https://github.com/divlook/ts-library-starter/commit/b0cf885916a1ed5a0a5c55e16b247431e35ecbda))
-
-## [0.1.5](https://github.com/divlook/ts-library-starter/compare/v0.1.4...v0.1.5) (2023-03-05)
-
-
-### Continuous Integration
-
-* Testing workflow 추가 ([3a047e6](https://github.com/divlook/ts-library-starter/commit/3a047e6199770c8c9060815db6a7eb6c95c7480c))
-
-
-### Miscellaneous Chores
-
-* **release:** v0.1.5 [skip ci] ([cd2d2fb](https://github.com/divlook/ts-library-starter/commit/cd2d2fba9093719a553e79b835419d6a543352ff))
-* workflow 이름 변경 ([67ebef8](https://github.com/divlook/ts-library-starter/commit/67ebef86bd68349d388962d32afb2148c601789f))
 
