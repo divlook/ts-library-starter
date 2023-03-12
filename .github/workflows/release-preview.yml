@@ -45,3 +45,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           pr_title: ${{ steps.changelog.outputs.tag }}
           pr_body: ${{ steps.changelog.outputs.clean_changelog }}
+          pr_draft: true
