@@ -75,6 +75,25 @@ npm i -g pnpm
 pnpm i
 ```
 
+### husky 설정
+
+husky에 등록된 git hook에서 NVM 인식이 안되는 문제가 있습니다. 아래와 같이 설정해주세요.
+
+```bash
+sudo vi ~/.huskyrc
+```
+
+```bash
+#!/usr/bin/env bash
+
+source ~/.bash_profile
+# or `source ~/.zshrc`
+
+if test -f ".nvmrc"; then
+    nvm use
+fi
+```
+
 ### 패키지 설정
 
 scope 관련 설명은 [여기](https://docs.npmjs.com/cli/v9/using-npm/scope)를 참고해주세요.
