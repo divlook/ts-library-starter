@@ -3,7 +3,7 @@
 ## 소개
 
 - TypeScript를 사용하여 라이브러리를 만들기 위한 보일러플레이트입니다.
-- Vite를 사용하여 빌드하며, Prettier, ESLint, Jest, GitHub Action 설정이 내장되어 있습니다.
+- Vite를 사용하여 빌드하며, Prettier, ESLint, Jest, Husky, GitHub Action 설정이 내장되어 있습니다.
 - [Semantic Release](https://semantic-release.gitbook.io/semantic-release/)와 [Conventional Commits](https://www.conventionalcommits.org/)을 사용하여 버저닝, 릴리즈 노트, 체인지 로그를 생성하며 NPM 레지스트리에 배포합니다.
 
 ### 활용 방법
