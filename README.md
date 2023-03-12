@@ -177,7 +177,6 @@ develop branch에 Pull Request가 정상적으로 병합되면 [릴리즈](./rel
 이 설정을 변경하고 싶은 경우 아래 파일을 수정해주세요.
 
 - .github/workflows/release.yml
-- .github/workflows/release-preview.yml
 - conventionalcommits.config.js
 
 ### 배포
