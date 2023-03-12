@@ -48,6 +48,7 @@ jobs:
         with:
           path: dist
           key: ${{ github.run_number }}
+      - run: npm pkg delete scripts.prepare
       - run: npm pkg delete devDependencies
       - run: npm publish --access public
         env:
@@ -68,6 +69,7 @@ jobs:
         with:
           path: dist
           key: ${{ github.run_number }}
+      - run: npm pkg delete scripts.prepare
       - run: npm pkg delete devDependencies
       - run: npm publish --access public
         env:
