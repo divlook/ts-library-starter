@@ -94,6 +94,13 @@ if test -f ".nvmrc"; then
 fi
 ```
 
+만약 아래와 같은 메시지가 발생한다면 터미널에 `chmod ug+x .husky/*`를 입력해주세요.
+
+```bash
+hint: The '.husky/pre-push' hook was ignored because it's not set as executable.
+hint: You can disable this warning with `git config advice.ignoredHook false`.
+```
+
 ### 패키지 설정
 
 scope 관련 설명은 [여기](https://docs.npmjs.com/cli/v9/using-npm/scope)를 참고해주세요.
@@ -162,14 +169,30 @@ cd /workspace/ts-library-starter
 pnpm unlink
 ```
 
-### 테스트
+### 코드품질
 
-`**/*.test.ts` 패턴의 파일을 찾아 테스트를 실행합니다.
+- 유닛 테스트
 
-```bash
-pnpm test
-pnpm test -- --watch
-```
+    `**/*.test.ts` 패턴의 파일을 찾아 테스트를 실행합니다.
+
+    ```bash
+    pnpm test
+    pnpm test -- --watch
+    ```
+
+- ESLint
+
+    ```bash
+    pnpm eslint
+    pnpm eslint:fix
+    ```
+
+- Prettier
+
+    ```bash
+    pnpm prettier
+    pnpm prettier:fix
+    ```
 
 ### 릴리즈 생성
 
