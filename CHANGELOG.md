@@ -1,3 +1,23 @@
+## [0.2.1](https://github.com/divlook/ts-library-starter/compare/v0.2.0...v0.2.1) (2023-09-23)
+
+
+### Documentation
+
+* README 보강 ([d751213](https://github.com/divlook/ts-library-starter/commit/d7512135530bfb3b059dd19566c539c66923cb29))
+* 잘못된 링크 수정 ([5aa135b](https://github.com/divlook/ts-library-starter/commit/5aa135b5956da592ee44f1e1d0eaac7785f8591a))
+
+
+### Build System
+
+* browser 환경에서 UMD 모듈이 사용되도록 수정 ([67578c9](https://github.com/divlook/ts-library-starter/commit/67578c98b055eef4e2bd340b94db19110ea88fe9))
+
+
+### Miscellaneous Chores
+
+* eslint, prettier 대상에서 root 파일 제외 ([81eda07](https://github.com/divlook/ts-library-starter/commit/81eda078fb828f6094eb5cd9ed9d803b8676ea7a))
+* eslint, prettier 자동수정 스크립트 추가 ([44d786d](https://github.com/divlook/ts-library-starter/commit/44d786daaa9cf48e5916cfc626815f7f5bb67084))
+* pnpm-lock.yaml 파일 업데이트 ([d405cb2](https://github.com/divlook/ts-library-starter/commit/d405cb2ea9995fe0a5fe5b4f014c69ee0ed9f330))
+
 ## [0.2.0](https://github.com/divlook/ts-library-starter/compare/v0.1.10...v0.2.0) (2023-03-12)
 
 
@@ -32,6 +52,7 @@
 ### Miscellaneous Chores
 
 * .github/workflows/release-preview.yml 삭제 ([e60dfa7](https://github.com/divlook/ts-library-starter/commit/e60dfa710d17355f5049a4779b39a065f392ecd9))
+* **release:** v0.2.0 [skip ci] ([698a057](https://github.com/divlook/ts-library-starter/commit/698a057c3cda3923880b6ea0e7d2a65d22bc3b36))
 * 릴리즈 워크플로우 이름 변경 ([73c58b6](https://github.com/divlook/ts-library-starter/commit/73c58b68b4bf75c700aaa71d9506a66be051ae82))
 
 ## [0.1.10](https://github.com/divlook/ts-library-starter/compare/v0.1.9...v0.1.10) (2023-03-12)
@@ -71,16 +92,4 @@
 ### Miscellaneous Chores
 
 * **release:** v0.1.8 [skip ci] ([c1e1746](https://github.com/divlook/ts-library-starter/commit/c1e1746b268ccfcfbf6816b385fae0da3e5cdc87))
-
-## [0.1.7](https://github.com/divlook/ts-library-starter/compare/v0.1.6...v0.1.7) (2023-03-05)
-
-
-### Continuous Integration
-
-* 릴리즈 생성 방식 및 트리거 조건 변경 ([bd82a0f](https://github.com/divlook/ts-library-starter/commit/bd82a0fcd5b9e37fe7cf7e5af0b0946280f33d39))
-
-
-### Miscellaneous Chores
-
-* **release:** v0.1.7 [skip ci] ([9788ec0](https://github.com/divlook/ts-library-starter/commit/9788ec0e5bd6957e187860cc68b5f8deefdf1614))
 
