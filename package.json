@@ -9,6 +9,7 @@
   "license": "MIT",
   "main": "./dist/lib.js",
   "module": "./dist/lib.mjs",
+  "browser": "./dist/lib.umd.js",
   "types": "./dist/lib.d.ts",
   "files": [
     "dist",
